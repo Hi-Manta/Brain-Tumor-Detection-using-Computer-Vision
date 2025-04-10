@@ -21,7 +21,7 @@ st.set_page_config(page_title="Brain Tumor Detection | MRI Analyzer", layout="wi
 def load_model(model_path):
     return YOLO(model_path)
 
-model_path = "F:/Projects/Labeled MRI Brain Tumor Dataset Computer Vision Project/detect/train/weights/best.pt"
+model_path = "best.pt"
 model = load_model(model_path)
 
 # ---------------------------- CSS Styling ----------------------------
