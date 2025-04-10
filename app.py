@@ -111,7 +111,7 @@ def annotate_and_extract(image_np, results):
             label = f"{class_name} ({confidence}%)"
             cv2.rectangle(annotated_img, (x1, y1), (x2, y2), (255, 0, 0), 2)
             cv2.putText(annotated_img, label, (x1, y1 - 10), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
+            cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
 
             found_classes.add(class_name)
 
