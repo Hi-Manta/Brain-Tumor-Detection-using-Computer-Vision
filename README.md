@@ -21,14 +21,6 @@ Try the app live: [Streamlit Cloud Deployment](https://YOUR_STREAMLIT_APP_LINK_H
 
 ---
 
-## 📷 Sample Usage
-
-<p align="center">
-  <img src="screenshots/example_detection.png" width="700"/>
-</p>
-
----
-
 ## 🧠 Tumor Types
 
 | Tumor Type   | Description |
@@ -58,7 +50,7 @@ pip install -r requirements.txt
 ```
 ---
 
-🧪 Run Locally
+## 🧪 Run Locally
 ```bash
 streamlit run app.py
 ```
