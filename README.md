@@ -6,7 +6,7 @@ This project leverages **YOLOv8** and **Streamlit** to detect brain tumors in MR
 
 ## 🚀 Live Demo
 
-Try the app live: [Streamlit Cloud Deployment](https://YOUR_STREAMLIT_APP_LINK_HERE)
+Try the app live: [Streamlit Cloud Deployment](https://brain-tumor-detection-by-himanta.streamlit.app/)
 
 ---
 
@@ -38,33 +38,6 @@ Try the app live: [Streamlit Cloud Deployment](https://YOUR_STREAMLIT_APP_LINK_H
 - **App:** Streamlit
 - **Image Handling:** OpenCV, Pillow
 - **Language:** Python 3.9+
-
----
-
-## ✅ Requirements
-
-Install the required libraries using:
-
-```bash
-pip install -r requirements.txt
-```
----
-
-## 🧪 Run Locally
-```bash
-streamlit run app.py
-```
-
-## 🧰 Deployment Tips for Streamlit Cloud
-If deploying on Streamlit Cloud, make sure your requirements.txt includes:
-```bash
-streamlit
-ultralytics
-opencv-python-headless
-Pillow
-numpy
-```
-⚠️ Avoid using opencv-python on Streamlit Cloud, as it may cause libGL.so.1 errors.
 
 ---
 
